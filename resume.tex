@@ -1,0 +1,27 @@
+\documentclass[margin]{res}
+\usepackage{graphicx}
+\usepackage{tabu}
+\usepackage{multirow}
+
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+\renewcommand{\arraystretch}{1.2}
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\Large\bf Aarsh Verdhan}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+\hskip-3.0cm\begin{tabular*}{6in}{l@{\extracolsep{\fill}}r}
+        & \multirow{1}{*}{\includegraphics[scale=1]{profile}}\\
+         
+        %-----------------------------------------------------------  
+        House no 733, Tuglakabad& \\
+        New Delhi-110044  \\
+        Delhi\\
+        averdhen123@gmail.com \\
+        8920403086\\
+    \end{tabular*}
+\end{document}
